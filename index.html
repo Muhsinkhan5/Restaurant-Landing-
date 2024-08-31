@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Luncha</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__header">
+        <div class="logo nav__logo">
+          <a href="#">Lun<span>cha</span></a>
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <span><i class="ri-menu-line"></i></span>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#special">Menu</a></li>
+        <li><a href="#chef">How It Work</a></li>
+        <li><a href="#client">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="nav__btn">
+        <button class="btn"><i class='bx bx-cart-add'></i></button>
+      </div>
+      <div class="nav__btn">
+        <button class="btn"><i class='bx bx-user-pin' ></i></button>
+      </div>
+    </nav>
+    <header class="section__container header__container" id="home">  
+     <div class="header__image">
+        <img src="assets/special-3.png" alt="header" />
+      </div>
+      <div class="header__content">
+        <h1>From Nature, Back<span>To Nature</span>.</h1>
+        <p class="section__description">
+         Healthy living starts with waht you eat with the proper compostion and combination
+         <i class='bx bxs-check-circle' style="color:#fc7f09;">100% Fresh From Nature </i><br>
+         <i class='bx bxs-check-circle' style="color: #fc7f09;">Free dilivery</i><br>
+         <i class='bx bxs-check-circle' style="color: #fc7f09;">100% Gauranties</i>
+        </p>
+        <div class="header__btn">
+          <button class="btn-i">Order Now</button>
+          <button class="btn">Learn More</button>
+        </div>
+      </div>
+    </header>
+    <section class="section__container special__container" id="special">
+      <h1>Favorites Menu</h1>
+      <div class="special__grid">
+        <div class="special__card">
+          <img src="assets/special-1.png" alt="special" />
+          <h4>Chicken Veg Curry</h4>
+          <div class="special__ratings">
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+          </div>
+          <div class="special__footer">
+            <p class="price">$12.50</p>
+            <button class="btn">Add to Cart</button>
+          </div>
+        </div>
+        <div class="special__card">
+          <img src="assets/special-2.png" alt="special" />
+          <h4>Chicken Veg Stir-Fry</h4>
+          <div class="special__ratings">
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+          </div>
+          <div class="special__footer">
+            <p class="price">$18.50</p>
+            <button class="btn">Add to Cart</button>
+          </div>
+        </div>
+        <div class="special__card">
+          <img src="assets/special-3.png" alt="special" />
+          <h4>Chicken Veg Pasta</h4>
+          <div class="special__ratings">
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+          </div>
+          <div class="special__footer">
+            <p class="price">$15.50</p>
+            <button class="btn">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
